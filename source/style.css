@@ -11,12 +11,12 @@
 }
 .header.open .header__container .header__burger-btn::before {
   transform: rotate(45deg);
-  top: 15px;
+  top: 17px;
   background: #fff;
 }
 .header.open .header__container .header__burger-btn::after {
   transform: rotate(-45deg);
-  top: 15px;
+  top: 17px;
   background-color: #fff;
 }
 .header.open .header__container .header__burger-btn .header__span {
