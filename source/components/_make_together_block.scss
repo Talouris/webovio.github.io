@@ -1,0 +1,60 @@
+.make__together__sec {
+    width: 100%;
+    background-color: #FAFAFA;
+    position: absolute;
+    z-index: 4;
+    @media screen and (min-width:1024px) {
+        width: 80%;
+        margin-top: -130px;
+    }
+    @media screen and (min-width:1440px) {
+        width: 88.5%;
+        margin-top: -150px;
+    }
+    .make__together__container {
+        width: 80%;
+        @media screen and (min-width: 400px) {
+            margin: 0 auto;
+        }
+        @media screen and (min-width: 1440px) {
+        }
+        .make__together__place{
+            width: 95%;
+            margin: 0 auto;
+            @media screen and (min-width: 400px) {
+                .make__together__place {
+                    width: 100%;
+                }
+            }
+            .make__together__h2-60px {
+                font-family: "Poppins";
+                font-size: 43px;
+                font-weight: 700;
+                line-height: 74px;
+                letter-spacing: 0px;
+                padding: 50px 0 90px 0px;
+                text-align: left;  
+                @media screen and (min-width:1024px) {
+                    padding-bottom: 40px;
+                }       
+                @media screen and (min-width: 1440px) {
+                    padding-bottom: 50px;
+                    padding-top: 46px;
+                    padding-left: 10px;
+                    font-size: 60px;
+                }
+            }
+            .make__together__link {
+                padding: 0 0 41px 0;
+                font-family: 'Poppins';
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.5px;                
+                @media screen and (min-width:1024px) {
+                    font-size: 16px;
+                    padding-bottom: 70px;
+                }
+            }
+        }
+    }
+}

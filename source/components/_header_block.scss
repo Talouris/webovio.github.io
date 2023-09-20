@@ -1,0 +1,138 @@
+.header {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    &.open {
+        .header__container {
+            .header__burger-btn {
+                position: fixed;
+                margin-left: 73%;
+                background-color: #868585;
+                &::before {
+                    transform: translateY(0);
+                    background: #fff;
+                }
+                &::after {
+                    transform: translateY(0);
+                    background-color: #fff;
+                }
+                .header__span {
+                    opacity: 0;
+                }
+            }
+            .header__nav {
+                transform: translateX(0);
+            }
+            .header__nav__bg-active {
+                visibility: visible;
+            }
+        }
+    }
+    @media screen and (min-width: 1440px) {
+        position: absolute;
+        background-color: #ffffff00;
+        box-shadow: none;
+    }
+    .header__container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 390px) {
+            width: 100%;
+        }
+        .header__logo {
+            max-width: 256px;
+            max-height: 39px;
+            padding-bottom: 20px;
+            @media screen and (min-width: 1440px) {
+                padding-top: 9px;
+                margin-left: 23px;
+                width: 256.29px;
+                height: 39.27px;
+            }
+            img {
+                max-width: 256px;
+                max-height: 39px;
+                margin: 15px 0 0 0;
+            }
+        }
+        .header__burger-btn {
+            margin: 25px 22px 0 0;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 215, 35, 1);
+            border-radius: 25px;
+            position: relative;
+            z-index: 11;
+            &::after, &::before {
+                content: '';
+                background-color: #111;
+                position: absolute;
+                width: 80%;
+                height: 2px;
+                left: 3px;
+                transition: transform .5s, opacity .5s, background-color .5s;
+            }
+            &::before {
+                top: 11px;
+            }
+            &::after {
+                bottom: 9px;
+            }
+            @media screen and (max-width: 1439px) {
+             margin-top: 15px;   
+            }
+            .header__span {
+                width: 30px;
+                background-color: #111;
+                position: absolute;
+                width: 80%;
+                height: 2px;
+                left: 3px;
+                transition: transform .5s, opacity .5s, background-color .5s;
+            }
+        }
+        .header__nav {
+            position: fixed;
+            width: 300px;
+            height: 400px;
+            background-image: url(../img/nav_bg.png);
+            background-size: contain;
+            top: 15px;
+            right: 30px;
+            transform: translateX(150%);
+            transition: all 0.3s ease;
+            border-radius: 10px;
+            z-index: 10;
+            border: 1px solid #fff;
+            .header__nav__list {
+                margin: 60px 0 0 20px;
+                .header__list__item {
+                    text-decoration: none;
+                    font-size: 24px;
+                    font-family: 'Poppins';
+                    font-weight: 700;
+                    line-height: 64px;
+                    letter-spacing: 0px;   
+                    .header__list__item__link {
+                        text-decoration: none;
+                        color: #fff;
+                        cursor: pointer;
+                        padding: 2px 0;
+                    }                     
+                }
+            }
+        }
+        .header__nav__bg-active {
+            background: #1111117e;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+            z-index: 9;
+            visibility: hidden;
+        }
+    }
+}

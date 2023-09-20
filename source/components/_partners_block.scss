@@ -1,0 +1,97 @@
+.partners {
+    width: 100%;
+    @media screen and (min-width:1024px) {
+        margin-bottom: 30px;
+    }
+    .partners__cotainer {
+        width: 100%;
+        background-color: #fff;
+        @media screen and (min-width:1024px) {
+            width: 90%;
+            margin: 0 0 0 auto;
+            padding: 15px 0;
+            margin-top: -64px;
+            box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+        }
+        @media screen and (min-width: 1440px) {
+            width: 76%;
+            margin-top: -101px;
+            padding: 57px 165px 57px 15px;  
+            right: 0;       
+        }
+        .partners__list {
+            padding: 57px 0 57px 0;
+            margin: 0 auto;
+            @media screen and (min-width:400px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            @media screen and (min-width:500px) and (max-width:767px) {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            @media screen and (min-width:768px) {
+                display: flex;
+                padding: 0;
+            }
+            .partners__item {
+                width: 156px;
+                opacity: 62.6%;
+                height: 113px;
+                margin-bottom: 20px;
+                box-shadow: 1px 1px 2px 1px black;
+                margin: 0 auto;
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                    @media screen and (min-width:1024px) {
+                        margin-bottom: 0;
+                    }
+                }
+                @media screen and (min-width:768px) {
+                    box-shadow: none;
+                }
+                @media screen and (min-width:1440px) {
+                    &:nth-child(1) {
+                        margin: 0 0 0 51px;
+                    }
+                    &:nth-child(2) {
+                        margin: 0 0 0 62px;
+                    }
+                    &:nth-child(3) {
+                        margin: 0 0 0 67px;
+                    }
+                    &:nth-child(4) {
+                        margin: 0 0 0 66px;
+                    }
+                    &:nth-child(5) {
+                        margin: 0 0 0 68px;
+                    }
+                }
+            }
+            .partners__item:nth-child(1){
+                background-image: url("../img/main_andry.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .partners__item:nth-child(2){
+                background-image: url("../img/main_leadership.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .partners__item:nth-child(3){
+                background-image: url("../img/main_walbridge.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .partners__item:nth-child(4){
+                background-image: url("../img/main_ideal.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .partners__item:nth-child(5){
+                background-image: url("../img/main_phalen.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}

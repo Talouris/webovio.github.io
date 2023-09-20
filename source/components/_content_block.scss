@@ -1,0 +1,448 @@
+.section__content {
+    width: 100%;
+    .content__conteiner {
+        width: 100%;
+        margin: 0 auto;
+        .section__item {
+            border-bottom: 1px solid rgba(33, 56, 66, 0.0955529);
+            margin: 0 10px 15px 10px;
+            @media screen and (min-width:1024px) {
+                display: flex;
+                width: 79%;
+                margin: 0 auto;
+                justify-content: space-between;
+                padding-bottom: 120px;
+            }
+            @media screen and (min-width:1440px) {
+                padding-bottom: 150px;
+            }
+            .section__item__info {
+                padding-bottom: 15px;
+                border-bottom: 1px solid rgba(33, 56, 66, 0.0955529);
+                @media screen and (min-width: 600px) {
+                    width: 85%;
+                    margin: 0 auto;
+                }
+                @media screen and (min-width:1024px) {
+                    margin-right: 75px;
+                    border-bottom: none;
+                }
+                @media screen and (min-width: 1440px) {
+                    padding-top: 67px;
+                    margin: 0 0 0 14px;
+                    width: 42%;
+                }
+                .info__sup__title {
+                    padding: 20px 0 32px 0;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+                .info__title {
+                    font-family: "Poppins";
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 46px;
+                    letter-spacing: 0px; 
+                    @media screen and (min-width: 1440px) {
+                        padding: 1px 0 0 0;
+                        width: 400px;
+                    }                   
+                }
+                .default__content__sub__title {
+                    padding: 32px 0 42px 0;
+                    @media screen and (min-width: 1440px) {
+                        width: 480px;
+                    }
+                }
+                .default__content__link {
+                    font-family: 'FontAwesome';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+                    text-decoration-line: underline;
+
+                }
+            }
+            .section__item__for__card {
+                padding: 40px 10px 30px 10px;
+                box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.15);
+                @media screen and (min-width: 600px) {
+                    width: 85%;
+                    margin: 0 auto;
+                }
+                @media screen and (min-width: 1025px) and (max-width:1439px) {
+                    padding-bottom: 10px;
+                    width: 61%;
+                }
+                @media screen and (min-width: 1440px) {
+                    padding: 15px 9px 57px 40px;
+                    margin: 62px 14px 0 0;
+                    width: 425px;
+                }
+                .content__card {
+                    @media screen and (min-width: 1440px) {
+                        width: 390px;
+                    }
+                    .card__sup__title {
+                        font-family: "Poppins";
+                        font-size: 24px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 40px;
+                        letter-spacing: 0px;
+                        color: #4D533C;
+                        padding-bottom: 20px;
+                        @media screen and (min-width: 1440px) {
+                            padding: 10px 0 10px 0;
+                        }
+                    }
+                    .card__hero__placemant {
+                        display: flex;
+                        .placemant__img {
+                            @media screen and (min-width: 1440px) {
+                                margin-right: 29px;
+                            }
+                            img {
+                                @media screen and (min-width: 1440px) {
+                                    width: 90px;
+                                    height: 90px;
+                                    margin-top: 44px;
+                                }
+
+                            }
+                        }
+                        .placemant__name {
+                            padding: 0 0 0 20px;
+                            @media screen and (min-width: 1440px) {
+                                margin: 54px 0 0 0;
+                                padding: 0;
+                            }
+                            .content__card__name {
+                                font-family: "Poppins";
+                                font-size: 22px;
+                                font-weight: 700;
+                                line-height: 33px;
+                                letter-spacing: 0px;
+                                color: #4D533C;                                
+                            }
+                            .content__card__direction {
+                                font-family: "Poppins";
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                letter-spacing: 0px;  
+                                color: #152934;
+                                margin-top: 7px;                             
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section__title__of__content {
+            padding: 30px 10px 40px 10px;
+            @media screen and (min-width: 600px) {
+                width: 80%;
+                margin: 0 auto;
+            }
+            @media screen and (min-width: 1024px) {
+                display: flex;
+            }
+            @media screen and (min-width: 1440px) {
+                padding: 150px 10px 40px 50px;
+            }
+            .title__place {
+                @media screen and (min-width: 1024px) {
+                    width: 100%;
+                    margin-right: 4px;
+                }
+                @media screen and (min-width: 1440px) {
+                    width: 70%;
+                }
+                .title__of__content {
+                    font-family: "Poppins";
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 54px;
+                    letter-spacing: 0px;
+                    color: rgba(77, 83, 60, 1);
+                    padding-bottom: 20px;
+                    width: 350px;
+                    @media screen and (max-width: 360px) {
+                        font-size: 34px;
+                        width: 300px;
+                    }
+                }
+            }
+            .p__place {
+                @media screen and (min-width: 600px) and (max-width:1439px){
+                    width: 90%
+                }
+                @media screen and (min-width: 1024px) {
+                    margin: 18px 0 0 0;
+                }
+                @media screen and (min-width: 1440px) {
+                    margin: 12px 0 0 3px;
+                }
+                .p__of__content {
+                    font-family: "Poppins";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0px; 
+                    color: rgba(33, 56, 66, 0.6);
+                    @media screen and (min-width: 1440px) {
+                        width: 67%;
+                    }
+                }
+            }
+        }
+        .wrapper__container {
+            .conteiner__section__item { 
+                margin: 0 auto;
+                @media screen and (min-width: 500px) {
+                    width: 85%;
+                    margin: 0 auto;
+                }
+                @media screen and (min-width:1024px) {
+                    display: flex;
+                    width: 100%;
+                    margin-bottom: 90px;
+                    &:nth-child(even){
+                        flex-direction: row-reverse;
+                    }
+                }
+                @media screen and (min-width:1440px) {
+                    margin-bottom: 95px;  
+                    &:nth-child(odd) {
+                        margin-bottom: 124px;
+                    }                     
+                }
+                &:nth-child(3) {
+                    @media screen and (min-width: 1440px) {
+                        margin-bottom: 0;
+                        padding-bottom: 188px;                      ;
+                        .default__content__title {
+                            padding-left: 5px;
+                        }
+                        .default__content__link {
+                            margin-top: 88px;
+                        }
+                    }
+                }
+                
+                &:nth-child(even) {
+                    @media screen and (min-width:1440px) {
+                        .content__info__place {
+                            padding:  124px 0 0 0px;
+                            width: 37%;
+                            left: 0;
+                        }
+                    }
+                }
+                .content__image__section {
+                    @media screen and (min-width:1024px) {
+                        width: 60%;
+                    }
+                    @media screen and (min-width:1440px) {
+                        width: 51%;
+                    }
+                    .content__img {
+                        width: 95%;
+                        z-index: auto;
+                        position: relative;
+                        margin: 0 auto;
+                        @media screen and (min-width:1024px) {
+                            margin: 0;
+                            width: 100%;
+                        }
+                        @media screen and (min-width:1440px) {
+                            margin: 42px 0 0 0;
+                        }
+                        img {
+                            width: 100%;
+                            margin: 0 auto;
+                            border-radius: 15px;
+                            @media screen and (min-width:1024px) {
+                                min-width: 100%;
+                                border-radius: 0;
+                            }
+                            @media screen and (min-width:1440px) {
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                    .content__card {
+                        width: 240px;
+                        border-radius: 8px;
+                        background: #fff;
+                        box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+                        position: absolute;
+                        margin: -20% 0;
+                        right: 10px;
+                        z-index: 5;
+                        @media screen and (min-width: 500px) {
+                            min-width: 310px;
+                        }
+                        @media  (min-width: 600px) {
+                            width: 300px;
+                            right: 30px;
+                            width: 345px;
+                        }
+                        @media (min-width: 600px) and (max-width: 710px) {
+                            width: 345px;
+                        
+                        }
+                        @media screen and (min-width:1024px) {
+                            margin: -14% 46%;
+                        }
+                        @media screen and (min-width:1234px) {
+                            min-height: 243px;
+                            width: 453px;                        
+                        }                 
+                        @media screen and (min-width:1440px) {
+                            width: 452px;
+                            min-height: 210px;
+                            margin: -12.1% 44.2%;
+                        }
+                        &:nth-child(3) {
+                            @media screen and (min-width:1440px) {
+                                .card__sup__title {
+                                    padding-top: 7px;
+                                }
+                            }
+                        }
+                        .card__sup__title {
+                            padding: 15px 5px 0 10px;
+                            font-family: "Poppins";
+                            font-size: 16px;
+                            font-style: italic;
+                            font-weight: 400;
+                            line-height: 22px;
+                            letter-spacing: 0px;  
+                            @media screen and (min-width:1234px) {
+                                line-height: 26px;  
+                                padding: 27px 33px 27px 30px;                       
+                            }       
+                            @media screen and (min-width:1440px) {
+                                width: 390px;
+                                padding-top: 28px;
+                            }           
+                        }   
+                        .card__hero__placemant {
+                            display: flex;
+                            padding: 15px 0 10px 0;
+                            @media screen and (min-width:1234px) {
+                                padding:  0 0 30px 30px;                       
+                            }
+                            @media screen and (min-width:1440px) {
+                                padding:  6px 0 30px 20px;                       
+                            }
+                            .placemant__img {
+                                min-width: 30%;
+                                @media screen and (min-width:1234px) {
+                                    min-width: 13%;
+                                    margin-right: 14px;                        
+                                }
+                                img {
+                                    width: 46px;
+                                    height: 46px;
+                                    margin: 0 0 0 10px;
+                                }
+                            }
+                            .placemant__name {
+                                .content__card__name {
+                                    padding: 0 0 0 0;
+                                    font-family: "Poppins";
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    line-height: 24px;
+                                    letter-spacing: 0px;                            
+                                }
+                                .content__card__direction {
+                                    font-family: "Poppins";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 21px;
+                                    letter-spacing: 0px;
+                                    @media screen and (min-width:1234px) {
+                                        padding: 3px 0 0 0;                       
+                                    }
+                                }
+                            }
+                        }             
+                    }
+                    .for__even {
+                        margin: -14% 23%;
+                        @media screen and (max-width:1023px) {
+                            margin: -14.5% 1%;                               
+                        }
+                        @media screen and (min-width:1440px) {
+                            margin: -14.5% 20.3%;                               
+                        }
+                    }
+                }
+            }
+            .border__bott {
+                width: 80%;
+                margin: 0 auto;
+                border-bottom: 1px solid rgba(33, 56, 66, 0.1);  
+            }
+        }
+        .content__info__place {
+            padding: 140px 10px 40px 10px;
+            @media screen and (min-width:320px) and (max-width: 500px) {
+                padding-top: 220px;
+            }
+            @media screen and (min-width:1024px) {
+                padding:  40px 25px 0 30px;
+                width: 50%;
+            }
+            @media screen and (min-width:1310px) {
+                padding:  90px 55px 0 50px;
+            }
+            @media screen and (min-width:1440px) {
+                padding:  124px 55px 0 98px;
+                width: 38%;
+            }
+            .default__content__title {
+                padding-bottom: 15px;
+                @media screen and (min-width:1280px) {
+                    font-family: "Poppins";
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: 0px;
+                }
+                @media screen and (min-width:1440px) {
+                    max-width: 350px;
+                    padding-bottom: 32px;
+                }
+            }
+            .default__content__sub__title {
+                padding-bottom: 15px;
+                @media screen and (min-width:1280px) {
+                    font-family: "Poppins";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0px;                    
+                }
+                @media screen and (min-width:1440px) {
+                    padding-bottom: 26px;
+                    width: 420px;
+                }
+            }
+            .default__content__link {
+                @media screen and (min-width:1440px) {
+                    margin-top: 64px;
+                    margin-left: -10px;
+                }
+            }
+        }
+    }
+}

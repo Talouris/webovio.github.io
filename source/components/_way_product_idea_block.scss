@@ -1,0 +1,124 @@
+.special__way {
+    width: 100%;
+    .way__conteiner {
+        width: 80%;
+        margin: 0 auto;
+        @media screen and (min-width:1024px) {
+            padding: 0 0 80px 0;
+        }
+        @media screen and (min-width:1440px) {
+            width: 77%;
+            padding: 0 0 223px 0;
+        }
+        .way__title {
+            padding: 100px 0 60px 0;
+            @media screen and (min-width:1440px) {
+                padding: 151px 0 80px 0px;
+                width: 600px;
+            }
+        }
+        .way__card_place {
+            width: 95%;
+            margin: 0 auto;
+            @media screen and (min-width:1024px) {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+            }
+            @media screen and (min-width:1440px) {
+                justify-content: start;
+            }
+            .way__card {
+                &:last-child {
+                    padding-bottom: 98px;
+                }
+                @media screen and (min-width:1024px) {
+                    width: 22%;
+                }
+                @media screen and (min-width:1440px) {
+                    margin: 5px 30px 0 0px;
+                }
+                &:nth-child(2) {
+                    .way__work {
+                        @media screen and (min-width:1440px) {
+                            margin-left: 11px;
+                        }
+                    }
+                }
+                &:nth-child(3) {
+                    .way__work {
+                        @media screen and (min-width:1440px) {
+                            margin-left: 22px;
+                        }
+                    }
+                }
+                &:nth-child(4) {
+                    .way__work {
+                        .way__work__info {
+                            @media screen and (min-width:1440px) {
+                                width: 190px;
+                                margin-top: -5px;
+                                padding-bottom: 5px;
+                            }    
+                        }
+                        @media screen and (min-width:1440px) {
+                            margin-left: 33px;
+                        }
+                    }
+                    
+                }
+                .way__work {
+                    @media screen and (min-width:1440px) {
+                        padding: 0 0 0 30px;
+                    }
+                    .way__work__title{
+                        padding: 27px 42px 20px 30px;
+                        font-family: "Poppins";
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 34px;
+                        letter-spacing: 0px;
+                        text-transform: uppercase;
+                        @media screen and (min-width:1024px) {
+                            padding: 0;    
+                            min-height: 70px;
+                            margin-bottom: 10px;
+                            width: 115px;
+                        }
+                        @media screen and (min-width:1440px) {
+                            min-width: 180px;
+                            padding-bottom: 10px;
+                        }
+                    }
+                    .way__work__info {
+                        padding: 0  31px 56px 30px;
+                        @media screen and (min-width:1024px) {
+                            padding: 0;
+                            min-height: 134px;
+                            margin-bottom: 0px;  
+                        }
+                        @media screen and (min-width:1440px) {
+                            max-width: 194px;
+                        }
+                    }
+                    .title1__width {
+                        @media screen and (min-width:1024px) {
+                            width: 190px;
+                        }
+                    }
+                }
+                .way__read__more {
+                    .main__link {
+                        padding:  0 20px 36px 30px;
+                        @media screen and (min-width:1024px) {
+                            padding:  0 20px 36px 0;
+                        }
+                        @media screen and (min-width:1440px) {
+                            padding-left: 42px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

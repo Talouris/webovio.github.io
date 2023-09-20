@@ -1,0 +1,219 @@
+.footer {
+    background-image: url("../img/footer_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    .footer__setion {
+        width: 80%;
+        margin: 0 auto;
+        padding: 500px 0 0 0;
+        @media screen and (min-width:1024px) {
+            padding-top: 220px;
+        }
+        @media screen and (min-width:1440px) {
+            padding-top: 291px;
+            width: 77.2%;
+        }
+        .footer__cotainer {
+            .footer__contacts {
+                display: flex;
+                padding-bottom: 30px;
+                @media screen and (min-width: 400px) {
+                    padding-top: 20px;
+                    padding-bottom: 55px;
+                }
+                .footer__contact__card {
+                    width: 50%;
+                    &:last-child {
+                        margin-left: 20px;
+                    }
+                    @media screen and (min-width:1024px) {
+                        width: 31%;
+                    }
+                    @media screen and (min-width:1440px) {
+                        width: 20.3%;
+                    }
+                }
+                .suptitle {
+                    @media screen and (min-width:1440px) {
+                        padding-bottom: 8px;
+                    }
+                }
+            }
+            .footer__answers__soc__icon {
+                border-top: 1px solid #5D6544;
+                @media screen and (min-width:1024px) {
+                    display: flex;
+                }
+                .footer__answers {
+                    display: flex;
+                    padding-top: 20px;
+                    border-bottom: 1px solid #5D6544;
+                    @media screen and (max-width: 578px) {
+                        display: block;
+                    }
+                    @media screen and (min-width:1024px) {
+                        width: 70%;
+                    }
+                    @media screen and (min-width:1440px) {
+                        padding-top: 61px;
+                    }
+                    .footer__answers__raws {
+                        width: 40%;
+                        @media screen and (min-width: 500px) {
+                            margin-right: 5px;
+                        }
+                        &:nth-child(2) {
+                            @media screen and (min-width:1440px) {
+                                margin-right: 25px;
+                            }
+                        }
+                        .side__border {
+                            @media screen and (min-width:1024px) {
+                                border-right: 1px solid #5D6544;
+                                height: 75%;
+                                margin-top: -210px;
+                            }
+                        }
+                        @media screen and (min-width:1024px) {
+                            width: 30%;
+                        }
+                        .raws_title {
+                            padding-bottom: 5px;
+                            min-height: 116px;
+                            min-width: 140px;
+                            @media screen and (max-width: 578px) {
+                                min-height: 0;
+                                padding-bottom: 0;
+                            }
+                            @media screen and (min-width:1024px) {
+                                min-height: 58px;
+                            }
+                            @media screen and (min-width:1440px) {
+                                text-transform: uppercase;
+                                padding-bottom: 0px;
+                            }
+                        }
+                        .raws__list {
+                            @media screen and (min-width: 300px) and (max-width: 359px)  {
+                                display: grid;
+                                grid-template-columns: 160px;
+                                padding-bottom: 30px;
+                            }
+                            @media screen and (min-width: 360px) and (max-width: 578px) {
+                                padding-bottom: 20px;
+                                display: grid;
+                                width: 100%;
+                                grid-template-columns: 160px 160px;
+                            }
+                            .raws__list__item {
+                                padding-right: 5px;
+                            }
+                        }
+                    }
+                }
+                .footer__social {
+                    border-bottom: 1px solid #5D6544;
+                    padding: 0 0 10px 0;
+                    @media screen and (min-width:1024px) {
+                        width: 30%;
+                    }
+                    .footer__social__sup {
+                        @media screen and (min-width:1440px) {
+                            padding: 37px 0 0 11px;
+                        }
+                        .footer__social__info {
+                            color: #B6C197;
+                            margin-bottom: 15px;
+                            font-family: 'Poppins';
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 26px;
+                            letter-spacing: 0px;
+                            @media screen and (min-width:1440px) {
+                                width: 250px;
+                            }
+                        }
+                        .raws_title {
+                            margin: 30px 0 20px 0;
+                            @media screen and (min-width:1024px) {
+                                margin: 25px 0 30px 0;
+                            }
+                            @media screen and (min-width:1440px) {
+                                text-transform: uppercase;
+                                margin-bottom: 23px;
+                            }
+                        }
+                    }
+                    .footer__social__icon {
+                        .footer__email {
+                            font-family: 'Poppins';
+                            font-size: 19px;
+                            font-weight: 700;
+                            line-height: 38px;
+                            letter-spacing: 0px; 
+                            @media screen  and (min-width: 400px){
+                                font-size: 24px;
+                            }  
+                            @media screen and (min-width:1440px) {
+                                padding: 7px 0 0 11px;
+                            }                    
+                        }
+                        .footer__social__icon__place {
+                            min-width: 171px;
+                            height: 34px;
+                            display: flex;
+                            margin: 25px 0 0 11px;
+                            .footer__social__icon__item {
+                                width: 33px;
+                                height: 33px;
+                                background-color: rgba(94, 102, 72, 1);
+                                border-radius: 20px;
+                                margin-right: 13px;
+                                &:hover {
+                                    background-color: rgba(255, 215, 35, 1);
+                                }
+                                img {
+                                    width: 25px;
+                                    margin: 5px 0 0 4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer__logo__caption {
+                @media screen and (min-width:1440px) {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .footer__logo {
+                    margin: 30px 0 20px 0;
+                    img {
+                        @media screen and (min-width:1440px) {
+                            max-width: 200px;
+                            margin-top: 50px;
+                        }
+                    }
+                }
+                .footer__caption {
+                    padding-bottom: 20px;
+                    @media screen and (min-width:1440px) {
+                        padding-bottom: 0;
+                        margin: 88px 29px 0 0;
+                    }
+                    .footer__caption__p {
+                        color: #B6C197;
+                        font-family: 'Poppins';
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        letter-spacing: 0px;                        
+                    }
+                }
+            }
+        }
+    }
+}
