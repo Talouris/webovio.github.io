@@ -9,11 +9,11 @@
                 margin-left: 73%;
                 background-color: #868585;
                 &::before {
-                    transform: translateY(0);
+                    transform: rotate(45deg);
                     background: #fff;
                 }
                 &::after {
-                    transform: translateY(0);
+                    transform: rotate(-45deg);
                     background-color: #fff;
                 }
                 .header__span {
